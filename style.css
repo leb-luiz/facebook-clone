@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(172, 172, 184, 0.19);
+    background-color: #f0f2f5;
     font-family: Helvetica, Arial, sans-serif;
 }
 .container{
@@ -43,7 +43,7 @@ body{
     width: 400px;
     height: 315px;
     border-radius: 10px;
-
+    padding: 10px 0 24px;
 }
 .form-all{
     display: flex;
@@ -52,16 +52,18 @@ body{
     border-radius: 5px;
 }
 .form-all input{
-    padding: 15px;
+    padding: 14px 16px;
     margin-top: 10px;
     border-radius: 5px;
     width: 330px;
+    border: 1px solid #dedddd;
 }
 .form-all password{
     color: #1877F2;
 }
 .form-all hr{
     width: 350px;
+
 }
 #sign-in{
     background-color: #1877F2;
